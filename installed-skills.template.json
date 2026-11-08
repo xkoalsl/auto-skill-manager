@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "last_updated": "YYYY-MM-DD",
+  "installed_skills": [],
+  "self_healing_rules": {
+    "inactive_after_days": 90,
+    "auto_suggest_cleanup": true,
+    "auto_replace_superseded": true,
+    "min_stars_for_replacement": 500
+  },
+  "known_repos": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic official agent skills repository",
+      "trust_level": "official",
+      "available_skills_path": "skills/"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Agentic skills framework & software development methodology",
+      "trust_level": "high"
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents",
+      "trust_level": "high"
+    }
+  ]
+}
